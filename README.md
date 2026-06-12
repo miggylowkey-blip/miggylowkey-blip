@@ -1,4 +1,4 @@
-# Hi, I'm John Miguel Sarmiento 👋
+# hello, I'm John Miguel Sarmiento. 
 ### Backend & Cloud Infrastructure Engineer | Tech Student
 
 I design secure cloud infrastructure, automate deployment pipelines, and build concurrent backend applications. Currently focusing on systems architecture and high-performance backend systems.
@@ -27,26 +27,3 @@ I design secure cloud infrastructure, automate deployment pipelines, and build c
 * **What it does:** A production-grade, multi-file IaC setup that provisions an isolated virtual network, secure firewalls, and compute resources.
 * **Automation:** Integrated with a live GitHub Actions CI/CD pipeline that automatically runs syntax validations and dry-run resource plans on every code push.
 * [👉 View Repository](https://github.com/miggylowkey-blip/API-MANAGEMENT)
-
-
-
----
-
-## 📊 GitHub Metrics
-![](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=dark)
-## Hi there 👋
-
-<!--
-**miggylowkey-blip/miggylowkey-blip** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
