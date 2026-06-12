@@ -15,7 +15,7 @@
 
 ---
 
-## 👨‍💻 About Me
+##  About Me
 
 I am a systems and infrastructure developer based in the Philippines, specializing in bridging the gap between raw cloud compute and high-performance applications. My developer philosophy revolves around secure deployments, strict Infrastructure as Code (IaC) principles, and writing clean, concurrent backend logic. 
 
@@ -23,7 +23,7 @@ Whether I am orchestrating containers, architecting scalable AWS environments, o
 
 ---
 
-## ⚙️ Developer Workflow
+##  Developer Workflow
 
 *   **1. Architect & Plan:** Designing secure, highly available AWS architectures and network topologies before a single line of code is written.
 *   **2. Automate & Provision:** Using Terraform to declare immutable cloud infrastructure and Bash to script server-level tasks.
@@ -33,7 +33,7 @@ Whether I am orchestrating containers, architecting scalable AWS environments, o
 
 ---
 
-## 🏗️ System Architecture & Tools
+##  System Architecture & Tools
 
 **Cloud & Orchestration**<br>
 [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
@@ -60,15 +60,15 @@ Whether I am orchestrating containers, architecting scalable AWS environments, o
 
 ---
 
-## 🚀 Production Work
+##  Production Work
 
-### 🗺️ Multi-Module Cloud Infrastructure Architecture
+###  Multi-Module Cloud Infrastructure Architecture
 > **Tech Stack:** Terraform, AWS (VPC, EC2, ECR), GitHub Actions
 * **Architecture:** A production-grade, multi-file IaC setup that provisions an isolated virtual network, secure firewalls, and scalable compute resources.
 * **Automation:** Integrated with a live GitHub Actions CI/CD pipeline that enforces strict syntax validations and executes dry-run state plans on every commit.
 * [**[ Repository ]**](https://github.com/miggylowkey-blip/cloud-lambda-driven-infrastracture)
 
-### 🛠️ Containerized Go API Gateway & Cloud Infrastructure Engine
+###  Containerized Go API Gateway & Cloud Infrastructure Engine
 > **Tech Stack:** Go (Golang), HashiCorp Terraform (HCL), Kubernetes, Docker, Trivy, Kubesec, GitHub Actions
 * **Backend Core:** Engineered a production-grade Go REST API using standard project layouts (`cmd/api`, `internal`), managing structured micro-routing and automated SQL database `migrations`.
 * **Infrastructure as Code (IaC):** Designed a modular Terraform architecture to safely provision automated environments, isolating compute resources and secure private container networks.
