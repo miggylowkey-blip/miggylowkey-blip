@@ -1,13 +1,13 @@
 <div align="center">
   <h1>John Miguel Sarmiento</h1>
-  <h3>Backend & Cloud Infrastructure Developer</h3>
+  <h3>Backend & Cloud Solution Developer</h3>
   <p><i>Designing secure cloud architecture, automating deployment pipelines, and building high-concurrency backend systems.</i></p>
   
   <p align="center">
     <a href="mailto:miggylowkey@gmail.com">
       <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://linkedin.com/in/[your-profile](https://www.linkedin.com/in/miggy-zxc-32028139a/)">
+    <a href="https://www.linkedin.com/in/miggy-zxc-32028139a/">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
   </p>
@@ -15,20 +15,21 @@
 
 ---
 
-##  About Me
+## 👨‍💻 About Me
 
 I am a systems and infrastructure developer based in the Philippines, specializing in bridging the gap between raw cloud compute and high-performance applications. My developer philosophy revolves around secure deployments, strict Infrastructure as Code (IaC) principles, and writing clean, concurrent backend logic. 
 
-Whether I am scaling a container, architecting scalable AWS environments, or exploring the magic in intigrating ideas into real projects, I build systems designed to scale reliably.
+Whether I am orchestrating containers, architecting scalable AWS environments, or exploring the magic of integrating ideas into real projects, I build systems designed to scale reliably.
 
 ---
 
 ## ⚙️ Developer Workflow
 
-*   **1. Architect & Plan:** Designing secure, AWS SaaS (Software as a service) and system topologies before a single line of code is written.
+*   **1. Architect & Plan:** Designing secure, highly available AWS architectures and network topologies before a single line of code is written.
 *   **2. Automate & Provision:** Using Terraform to declare immutable cloud infrastructure and Bash to script server-level tasks.
 *   **3. Build & Containerize:** Writing highly concurrent backend services in Go/Java/Python and packaging them into lightweight Docker images.
 *   **4. Deploy & Orchestrate:** Utilizing GitHub Actions for strict CI/CD pipelines to safely deploy workloads into AWS or Kubernetes clusters.
+*   **5. Monitor & Observe:** Tracking system health and time-series application metrics using Prometheus to ensure high availability and rapid incident response in production.
 
 ---
 
@@ -54,6 +55,9 @@ Whether I am scaling a container, architecting scalable AWS environments, or exp
 [![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 
+**Monitoring & Observability**<br>
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)](https://prometheus.io/)
+
 ---
 
 ## 🚀 Production Work
@@ -62,14 +66,14 @@ Whether I am scaling a container, architecting scalable AWS environments, or exp
 > **Tech Stack:** Terraform, AWS (VPC, EC2, ECR), GitHub Actions
 * **Architecture:** A production-grade, multi-file IaC setup that provisions an isolated virtual network, secure firewalls, and scalable compute resources.
 * **Automation:** Integrated with a live GitHub Actions CI/CD pipeline that enforces strict syntax validations and executes dry-run state plans on every commit.
-* [**[ View Infrastructure Repository ]**](https://github.com/miggylowkey-blip/API-MANAGEMENT)
+* [**[ Repository ]**](https://github.com/miggylowkey-blip/cloud-lambda-driven-infrastracture)
 
 ### 🛠️ Containerized Go API Gateway & Cloud Infrastructure Engine
 > **Tech Stack:** Go (Golang), HashiCorp Terraform (HCL), Kubernetes, Docker, Trivy, Kubesec, GitHub Actions
 * **Backend Core:** Engineered a production-grade Go REST API using standard project layouts (`cmd/api`, `internal`), managing structured micro-routing and automated SQL database `migrations`.
 * **Infrastructure as Code (IaC):** Designed a modular Terraform architecture to safely provision automated environments, isolating compute resources and secure private container networks.
 * **Orchestration & DevSecOps:** Packaged the service into lightweight Docker containers orchestrated via Kubernetes manifests. Implemented shift-left security scanning utilizing `Trivy` for filesystem audits and `Kubesec` for static analysis of Kubernetes security profiles.
-* [**[ Deep Dive into the Repository ]**](https://github.com/miggylowkey-blip/API-MANAGEMENT)
+* [**[ Repository ]**](https://github.com/miggylowkey-blip/API-MANAGEMENT)
 
 ---
 
