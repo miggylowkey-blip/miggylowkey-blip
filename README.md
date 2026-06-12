@@ -1,6 +1,6 @@
 <div align="center">
   <h1>John Miguel Sarmiento</h1>
-  <h3>Backend & Cloud Infrastructure Engineer</h3>
+  <h3>Backend & Cloud Infrastructure Developer</h3>
   <p><i>Designing secure cloud architecture, automating deployment pipelines, and building high-concurrency backend systems.</i></p>
 </div>
 
