@@ -28,10 +28,7 @@ I design secure cloud infrastructure, automate deployment pipelines, and build c
 * **Automation:** Integrated with a live GitHub Actions CI/CD pipeline that automatically runs syntax validations and dry-run resource plans on every code push.
 * [👉 View Repository](https://github.com/your-username/your-repo-name)
 
-### 📈 Python Financial Backtesting Engine
-* **Tech Stack:** Python, Polars Data Library
-* **What it does:** High-performance data imputation and systematic trading logic simulation to analyze historical market data and ledger performance with ultra-low memory overhead.
-* [👉 View Repository](https://github.com/your-username/your-repo-name)
+
 
 ---
 
