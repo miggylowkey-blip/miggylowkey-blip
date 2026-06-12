@@ -26,7 +26,7 @@ I design secure cloud infrastructure, automate deployment pipelines, and build c
 * **Tech Stack:** Terraform, AWS (VPC, EC2, ECR), GitHub Actions
 * **What it does:** A production-grade, multi-file IaC setup that provisions an isolated virtual network, secure firewalls, and compute resources.
 * **Automation:** Integrated with a live GitHub Actions CI/CD pipeline that automatically runs syntax validations and dry-run resource plans on every code push.
-* [👉 View Repository](https://github.com/your-username/your-repo-name)
+* [👉 View Repository](https://github.com/miggylowkey-blip/API-MANAGEMENT)
 
 
 
