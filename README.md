@@ -25,7 +25,7 @@ Whether I am scaling a container, architecting scalable AWS environments, or exp
 
 ## ⚙️ Developer Workflow
 
-*   **1. Architect & Plan:** Designing secure, AWS SaaS(Software as a service) and system topologies before a single line of code is written.
+*   **1. Architect & Plan:** Designing secure, AWS SaaS (Software as a service) and system topologies before a single line of code is written.
 *   **2. Automate & Provision:** Using Terraform to declare immutable cloud infrastructure and Bash to script server-level tasks.
 *   **3. Build & Containerize:** Writing highly concurrent backend services in Go/Java/Python and packaging them into lightweight Docker images.
 *   **4. Deploy & Orchestrate:** Utilizing GitHub Actions for strict CI/CD pipelines to safely deploy workloads into AWS or Kubernetes clusters.
