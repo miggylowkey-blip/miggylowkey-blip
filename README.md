@@ -2,7 +2,33 @@
   <h1>John Miguel Sarmiento</h1>
   <h3>Backend & Cloud Infrastructure Engineer</h3>
   <p><i>Designing secure cloud architecture, automating deployment pipelines, and building high-concurrency backend systems.</i></p>
+  
+  <p align="center">
+    <a href="mailto:your.email@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://linkedin.com/in/your-profile">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+  </p>
 </div>
+
+---
+
+## 👨‍💻 About Me
+
+I am a systems and infrastructure engineer based in the Philippines, specializing in bridging the gap between raw cloud compute and high-performance applications. My engineering philosophy revolves around zero-downtime deployments, strict Infrastructure as Code (IaC) principles, and writing clean, concurrent backend logic. 
+
+Whether I am optimizing a financial market backtesting engine, architecting scalable AWS environments, or exploring the intersection of software and physical hardware (mechatronics), I build systems designed to scale reliably.
+
+---
+
+## ⚙️ Engineering Workflow
+
+*   **1. Architect & Plan:** Designing secure, modular VPCs and system topologies before a single line of code is written.
+*   **2. Automate & Provision:** Using Terraform to declare immutable cloud infrastructure and Bash to script server-level tasks.
+*   **3. Build & Containerize:** Writing highly concurrent backend services in Go/Java/Python and packaging them into lightweight Docker images.
+*   **4. Deploy & Orchestrate:** Utilizing GitHub Actions for strict CI/CD pipelines to safely deploy workloads into AWS or Kubernetes clusters.
 
 ---
 
@@ -19,10 +45,11 @@
 [![DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)](https://aws.amazon.com/dynamodb/)
 [![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)](https://kafka.apache.org/)
 
-**Backend & CI/CD**<br>
+**Backend, Scripting & CI/CD**<br>
 [![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
 [![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
+[![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 
 ---
