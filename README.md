@@ -66,14 +66,14 @@ Currently, I am diving deep into **AWS Identity & Access Management (IAM)** and 
 > **Tech Stack:** Terraform, AWS (VPC, EC2, ECR), GitHub Actions
 * **Architecture:** A production-grade, multi-file IaC setup that provisions an isolated virtual network, secure firewalls, and scalable compute resources.
 * **Automation:** Integrated with a live GitHub Actions CI/CD pipeline that enforces strict syntax validations and executes dry-run state plans on every commit.
-* [**[ Repository ]**](https://github.com/miggylowkey-blip/cloud-lambda-driven-infrastracture)
+* [**[ Cloud Infrastracture ]**](https://github.com/miggylowkey-blip/cloud-lambda-driven-infrastracture)
 
 ### Containerized Go API Gateway & Cloud Infrastructure Engine
 > **Tech Stack:** Go (Golang), HashiCorp Terraform (HCL), Kubernetes, Docker, Trivy, Kubesec, GitHub Actions
 * **Backend Core:** Engineered a production-grade Go REST API using standard project layouts (`cmd/api`, `internal`), managing structured micro-routing and automated SQL database migrations.
 * **Infrastructure as Code (IaC):** Designed a modular Terraform architecture to safely provision automated environments, isolating compute resources and secure private container networks.
 * **Orchestration & DevSecOps:** Packaged the service into lightweight Docker containers orchestrated via Kubernetes manifests. Implemented shift-left security scanning utilizing `Trivy` for filesystem audits and `Kubesec` for static analysis of Kubernetes security profiles.
-* [**[ Repository ]**](https://github.com/miggylowkey-blip/API-MANAGEMENT)
+* [**[ API ]**](https://github.com/miggylowkey-blip/API-MANAGEMENT)
 
 ---
 
