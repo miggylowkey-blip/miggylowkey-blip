@@ -1,7 +1,7 @@
 <div align="center">
   <h1>John Miguel Sarmiento</h1>
   <h3>Backend & Cloud Solution Developer</h3>
-  <p><i>Designing secure cloud architecture, automating deployment pipelines, and building high-concurrency backend systems.</i></p>
+  <p><i>Building secure, high-concurrency systems with a focus on infrastructure reliability.</i></p>
   
   <p align="center">
     <a href="mailto:miggylowkey@gmail.com">
@@ -15,25 +15,25 @@
 
 ---
 
-##  About Me
+## About Me
 
-I am a systems and infrastructure developer based in the Philippines, specializing in bridging the gap between raw cloud compute and high-performance applications. My developer philosophy revolves around secure deployments, strict Infrastructure as Code (IaC) principles, and writing clean, concurrent backend logic. 
+I am a systems and infrastructure developer based in the Philippines. I specialize in bridging the gap between raw cloud compute and high-performance backend services. My approach centers on building reproducible environments, ensuring secure deployments, and maintaining code that is clean, concurrent, and highly observable.
 
-Whether I am orchestrating containers, architecting scalable AWS environments, or exploring the magic of integrating ideas into real projects, I build systems designed to scale reliably.
-
----
-
-##  Developer Workflow
-
-*   **1. Architect & Plan:** Designing secure, highly available AWS architectures and network topologies before a single line of code is written.
-*   **2. Automate & Provision:** Using Terraform to declare immutable cloud infrastructure and Bash to script server-level tasks.
-*   **3. Build & Containerize:** Writing highly concurrent backend services in Go/Java/Python and packaging them into lightweight Docker images.
-*   **4. Deploy & Orchestrate:** Utilizing GitHub Actions for strict CI/CD pipelines to safely deploy workloads into AWS or Kubernetes clusters.
-*   **5. Monitor & Observe:** Tracking system health and time-series application metrics using Prometheus to ensure high availability and rapid incident response in production.
+Currently, I am diving deep into **AWS Identity & Access Management (IAM)** and network traffic monitoring to sharpen my focus on cloud security architecture.
 
 ---
 
-##  System Architecture & Tools
+## Developer Workflow: AWS Execution
+
+* **Infrastructure Design:** I map out AWS resources (VPC, Subnets, Security Groups) to ensure network isolation before configuring compute.
+* **Immutable Provisioning:** I use Terraform to define environments as code, ensuring development and production parity to eliminate "works on my machine" issues.
+* **Pipeline Integrity:** My GitHub Actions pipelines enforce strict linting and automated security scans on Terraform HCL and Dockerfiles before any infrastructure is provisioned.
+* **Containerized Backends:** I package Java and Go services into minimal Docker images, optimizing for fast cold starts and low memory overhead on AWS ECS/Fargate.
+* **Observability & Logs:** I leverage structured logging and CloudWatch to ensure production issues are traceable back to specific commits or deployment versions.
+
+---
+
+## System Architecture & Tools
 
 **Cloud & Orchestration**<br>
 [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
@@ -60,17 +60,17 @@ Whether I am orchestrating containers, architecting scalable AWS environments, o
 
 ---
 
-##  Production Work
+## Production Work
 
-###  Multi-Module Cloud Infrastructure Architecture
+### Multi-Module Cloud Infrastructure Architecture
 > **Tech Stack:** Terraform, AWS (VPC, EC2, ECR), GitHub Actions
 * **Architecture:** A production-grade, multi-file IaC setup that provisions an isolated virtual network, secure firewalls, and scalable compute resources.
 * **Automation:** Integrated with a live GitHub Actions CI/CD pipeline that enforces strict syntax validations and executes dry-run state plans on every commit.
 * [**[ Repository ]**](https://github.com/miggylowkey-blip/cloud-lambda-driven-infrastracture)
 
-###  Containerized Go API Gateway & Cloud Infrastructure Engine
+### Containerized Go API Gateway & Cloud Infrastructure Engine
 > **Tech Stack:** Go (Golang), HashiCorp Terraform (HCL), Kubernetes, Docker, Trivy, Kubesec, GitHub Actions
-* **Backend Core:** Engineered a production-grade Go REST API using standard project layouts (`cmd/api`, `internal`), managing structured micro-routing and automated SQL database `migrations`.
+* **Backend Core:** Engineered a production-grade Go REST API using standard project layouts (`cmd/api`, `internal`), managing structured micro-routing and automated SQL database migrations.
 * **Infrastructure as Code (IaC):** Designed a modular Terraform architecture to safely provision automated environments, isolating compute resources and secure private container networks.
 * **Orchestration & DevSecOps:** Packaged the service into lightweight Docker containers orchestrated via Kubernetes manifests. Implemented shift-left security scanning utilizing `Trivy` for filesystem audits and `Kubesec` for static analysis of Kubernetes security profiles.
 * [**[ Repository ]**](https://github.com/miggylowkey-blip/API-MANAGEMENT)
